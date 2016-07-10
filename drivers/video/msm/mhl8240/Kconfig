@@ -1,0 +1,45 @@
+config FB_MSM_HDMI_MHL_8240
+	depends on FB_MSM_HDMI_MSM_PANEL
+	bool 'SI_MHL 8334 support '
+	default n
+	---help---
+	  Support the HDMI to MHL conversion.
+	  MHL (Mobile High-Definition Link) technology
+	  uses USB connector to output HDMI content
+
+config SII8240_DEBUG_DRIVER
+	bool "SII8240 DEBUG"
+	default n
+	help
+	  Allows to debug sii8240 driver
+
+config SII8240_NO_TRANSCODE_MODE
+	bool "SII8240 NO TRANSCODE"
+	default y
+	help
+	  Allows no transcode mode
+
+config SII8240_P03_DEMO
+	bool "SII8240 P03 DEMO"
+	default n
+	help
+	  Allows p03 demo
+
+config SII8240_P03_DEMO_PP
+	bool "SII8240 P03 DEMO PP "
+	default n
+	help
+	  Allows p03 demo PP
+
+config SII8240_VER68
+	bool "SII8240_VER68"
+	default y
+	help
+	  Allows SII8240_VER68
+
+config SII8240_PM_SUPPORT
+        bool "SII8240_PM_SUPPORT"
+        default y
+        help
+            Allows SII8240_PM support
+ 

@@ -1,0 +1,12 @@
+config SLIMPORT_ANX7808
+	bool "Analogix Slimport transmitter ANX7808 support"
+	default n
+	help
+	  Slimport Transmitter is a HD video transmitter chip
+	  over micro-USB connector for smartphone device.
+
+config ANX7808_PM_SUPPORT
+        bool "ANX7808_PM_SUPPORT"
+        default y
+        help
+            Allows ANX7808_PM support

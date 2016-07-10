@@ -1,0 +1,51 @@
+menu "Sensors driver"
+
+config SENSORS_PROXM
+	tristate "PS ALS proxm_class support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_AP3212C
+	tristate "PS ALS AP3212C support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_ADUX1020
+	tristate "PS ALS ADUX1020 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_CM32180
+	tristate "PS ALS CM32180 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_CM36283
+	tristate "PS ALS CM36283 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_CM3628
+	tristate "PS ALS CM3628 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_AL3010
+	tristate "PS ALS AL3010 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+config SENSORS_AL3320
+	tristate "PS ALS AL3320 support"
+	depends on I2C=y
+	help
+	  ASUS SENSORS folder
+
+endmenu
